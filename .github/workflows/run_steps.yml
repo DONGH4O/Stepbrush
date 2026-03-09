@@ -28,4 +28,4 @@ jobs:
           APP_TOKEN: ${{ secrets.APP_TOKEN }}
           USER_ID: ${{ secrets.USER_ID }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-        run: python githubRunPhone_updated.py
+        run: python githubRunPhone_Git.py
