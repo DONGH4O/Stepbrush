@@ -3,7 +3,7 @@ name: 自动刷步任务
 on:
   schedule:
     # 这里的 cron 是 UTC 时间。 0 0 * * * 代表 UTC 0点，也就是北京时间早上 8 点运行
-    - cron: '0 10 * * *'
+    - cron: '17 10 * * *'
   workflow_dispatch: # 允许你在网页上手动点击运行测试16
 
 jobs:
