@@ -28,4 +28,7 @@ jobs:
           APP_TOKEN: ${{ secrets.APP_TOKEN }}
           USER_ID: ${{ secrets.USER_ID }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          # 朋友配置映射
+          FRIEND_APP_TOKEN: ${{ secrets.FRIEND_APP_TOKEN }}
+          FRIEND_USER_ID: ${{ secrets.FRIEND_USER_ID }}
         run: python githubRunPhone_Git.py
